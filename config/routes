@@ -1,0 +1,14 @@
+# Routes
+
+/admin/{controller}/{@path}/{action}                        admin/{controller}::{action}
+/admin/{controller}/{action}                                admin/{controller}::{action}
+/admin/{controller}                                         admin/{controller}::index
+/admin/{page}                                               admin/Admin::{page}
+/admin/                                                     admin/Admin::index
+/admin                                                      admin/Admin::index
+
+/{controller}/{@path}                                       {controller}::view
+/{controller}                                               {controller}::index
+
+/{page}                                                     Pages::{page}
+/                                                           Pages::index

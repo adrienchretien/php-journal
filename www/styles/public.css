@@ -1,0 +1,67 @@
+html {
+  background: #f3f3f3;
+  display: table;
+  height: 100%;
+  table-layout: fixed;
+  width: 100%;
+}
+
+body {
+  display: table-cell;
+  font-size: 125%;
+  font-weight: 300;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+body, input, button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button, input {
+  border: 1px solid #c0c0c0;
+  font-size: .8em;
+  margin-left: .4em;
+  padding: .2em .4em;
+}
+
+button {
+  background: #c0c0c0;
+  border: 0 solid;
+  border-bottom: 3px solid #a0a0a0;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 8.5em;
+}
+
+br + label {
+  margin-top: 1.5em;
+}
+
+.content {
+  color: #808080;
+  padding: 1.5em;
+}
+
+.brand {
+  font-weight: 300;
+  margin: 0;
+}
+
+.hidden {
+  position: absolute;
+  left: -7000px;
+  overflow: hidden;
+}
+
+.form-commands {
+  margin-left: 8.5em;
+}
+
+
+.message { font-weight: 400; }
+  .message.error { color: #bf4046; }

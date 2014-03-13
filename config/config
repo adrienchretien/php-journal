@@ -1,0 +1,10 @@
+# Main configuration
+
+## General information
+site-name: Site name
+debug: false
+
+## Security
+secret: p@1OqJ)AK[k%:#Pu4]+8*rw#uLk"Ibs(S;J$k;VAbvPjDXK×s[gnPYs2*[jk*X#Z
+username: user
+password: pwd

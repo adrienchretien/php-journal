@@ -1,0 +1,13 @@
+{
+  "name": "adrienchretien/journal",
+  "description": "something",
+  "type": "website",
+  "license": "MIT",
+  "require": {
+    "daylerees/kurenai": "~1.0.2"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-0": { "Toolbox\\": "libraries/" }
+  }
+}
