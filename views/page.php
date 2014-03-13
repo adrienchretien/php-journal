@@ -23,15 +23,12 @@
         <li>
           <a href="/admin/journal">Journal</a>
           <ul class="sub-nav no-markers">
-            <li><a href="/admin/journal/create">Ajouter article</a></li>
+            <li><a href="/admin/journal/create">Create article</a></li>
           </ul>
         </li>
-        <li><a class="signout" href="/signOut">Déconnexion</a></li>
+        <li><a class="signout" href="/signOut">Sign out</a></li>
 <?php } else { ?>
-        <li><a href="/cv">CV</a></li>
         <li><a href="/journal">Journal</a></li>
-        <li><a href="/notes">Notes</a></li>
-        <li><a href="/liens">Liens</a></li>
 <?php } ?>
       </ul>
     </div>
