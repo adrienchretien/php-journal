@@ -6,7 +6,7 @@ Tested with NginX and php-fpm but not with another server.
 
 ## Required
 
-[Composer](https://getcomposer.org/) is used to get dependances of the project, please install it before going further.
+[Composer](https://getcomposer.org/) is used to get dependences of the project, please install it before going further.
 
 ## Install
 
